@@ -2,7 +2,11 @@
   "name": "hakus-moving-castle_personal",
   "description": "",
   "scripts": {},
-  "packageManager": "pnpm@10.6.1",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "packageManager": "bun@1.2.13",
   "engines": {
     "node": ">=22.0.0"
   }

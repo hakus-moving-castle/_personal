@@ -3,7 +3,7 @@
   "description": "",
   "scripts": {
     "dev": "turbo run dev",
-    "build": "turbo run build",
+    "compile": "turbo run build",
     "check-types": "turbo run check-types",
     "lint": "turbo run lint",
     "format": "turbo run format",

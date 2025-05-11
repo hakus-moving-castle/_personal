@@ -1,7 +1,14 @@
 {
   "name": "hakus-moving-castle_personal",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "check-types": "turbo run check-types",
+    "lint": "turbo run lint",
+    "format": "turbo run format",
+    "test": "turbo run test"
+  },
   "workspaces": [
     "packages/*",
     "apps/*"

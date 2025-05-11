@@ -1,0 +1,9 @@
+{
+  "name": "hakus-moving-castle_personal",
+  "description": "",
+  "scripts": {},
+  "packageManager": "pnpm@10.6.1",
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
